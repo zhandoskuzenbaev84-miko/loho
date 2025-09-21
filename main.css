@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.navbar {
+    margin: 50px;
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.lang {
+  font-size: 16px;
+}
+
+
+.login-box {
+  margin-top: 40px;
+  width: 360px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-header img.mini-logo {
+  height: 25px;
+}
+
+.offer-link {
+  font-size: 14px;
+  color: #ff5a5f;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 20px 0;
+  color: #111;
+}
+
+
+.user-type {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-type button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+.user-type button.active {
+  background: #fff;
+  border-bottom: 3px solid #ff5a5f;
+}
+
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .eye {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.qr-login {
+  margin: 12px 0;
+  font-size: 13px;
+  color: #888;
+}
+
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff9c9f;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #ff7c80;
+}
