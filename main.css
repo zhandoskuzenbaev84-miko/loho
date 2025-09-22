@@ -30,6 +30,39 @@ body {
 .lang {
   font-size: 16px;
 }
+select{
+    border: none;
+    background-color: transparent;
+    outline: none;
+       color: rgba(66, 66, 66, 1);
+
+font-family: "Inter";
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+}
+option{
+    color: rgba(66, 66, 66, 1);
+
+
+font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+
+}
+.select{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+ .select::before{
+    background-image:   url("./images/language.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content: "";
+}
 
 
 .login-box {
